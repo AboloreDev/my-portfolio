@@ -9,8 +9,6 @@ export const projects = [
     subDescription: [
       "Developing a modern real estate interface using Next.js, TypeScript, and Tailwind CSS for a fast and responsive experience.",
       "Utilizing Prisma ORM with PostgreSQL for scalable and secure data modeling.",
-      "Incorporating ShadCN UI for design consistency and component-driven architecture.",
-      "Architecting authentication and routing using best practices in Next.js App Router.",
     ],
     href: "",
     logo: "",
@@ -31,8 +29,6 @@ export const projects = [
     subDescription: [
       "Built with Next.js and TypeScript for scalable frontend and backend integration.",
       "Implemented Stripe for secure, real-time payments and transaction handling.",
-      "Used Sanity.io for flexible content management and product catalog control.",
-      "Managed global state and cart logic using Zustand; Clerk for secure auth.",
     ],
     href: "https://cartella-e-commerce.vercel.app/",
     logo: "",
@@ -53,8 +49,6 @@ export const projects = [
     subDescription: [
       "Engineered with MERN stack and TypeScript for strong type safety and modularity.",
       "Integrated Redux for reliable state management and real-time chart updates.",
-      "Utilized Chart.js and custom components for dynamic data visualizations.",
-      "MongoDB and Express.js power the backend for secure data handling.",
     ],
     href: "https://finance-dashboard-backend-fy04.onrender.com/",
     logo: "",
@@ -76,8 +70,6 @@ export const projects = [
     subDescription: [
       "Designed and developed with React and Tailwind CSS for fast, accessible UX.",
       "Built a reusable component system and dynamic product card grid.",
-      "Handled responsive layout, navigation, and product filter logic.",
-      "Emphasized mobile-first design and performance optimization.",
     ],
     href: "https://lumeo-ecommerce-website.vercel.app/",
     logo: "",
@@ -96,8 +88,6 @@ export const projects = [
     subDescription: [
       "Designed using Tailwind CSS with rich visual hierarchy and clean layouts.",
       "Implemented scroll-based animations and hover effects using JavaScript.",
-      "Optimized layout for mobile-first responsiveness and fast loading.",
-      "Showcased restaurant branding, menu highlights, and contact CTA.",
     ],
     href: "https://geritcht-restaurant-website.vercel.app/",
     logo: "",

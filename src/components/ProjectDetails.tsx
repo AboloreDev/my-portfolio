@@ -27,9 +27,9 @@ const ProjectDetails = ({
   closeModal,
 }: ProjectDetailsProps) => {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center px-4 py-8 overflow-auto backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-center justify-center px-8 overflow-auto backdrop-blur-sm">
       <motion.div
-        className="relative w-full max-w-[80%] md:max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        className="relative w-full max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
       >
