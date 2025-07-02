@@ -68,7 +68,7 @@ const Project = ({ project, setPreview }: ProjectProps) => {
         </div>
         <button
           onClick={() => setIsHidden(true)}
-          className="flex items-center gap-1 cursor-pointer hover-animation"
+          className="flex text-neutral-400 text-sm items-center gap-1 cursor-pointer hover-animation"
         >
           Read More
           <ArrowBigRight className="w-5" />
