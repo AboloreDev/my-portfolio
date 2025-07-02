@@ -102,7 +102,7 @@ export function Globe({ className, config = GLOBE_CONFIG }: GlobeProps) {
     <div className={cn("mx-auto aspect-[1/1] w-full max-w-[600px]", className)}>
       <canvas
         className={cn(
-          "size-[30rem] opacity-0 transition-opacity duration-500 [contain:layout_paint_size]"
+          "size-[20rem] opacity-0 transition-opacity duration-500 [contain:layout_paint_size]"
         )}
         ref={canvasRef}
         onPointerDown={(e) => {

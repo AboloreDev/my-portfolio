@@ -160,7 +160,7 @@ const AboutSection = () => {
           >
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img
-                src="/assets/profile.JPG"
+                src="/assets/profile-min.jpg"
                 alt="Abolore Developer Portrait"
                 width={400}
                 height={400}

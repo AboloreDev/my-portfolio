@@ -40,7 +40,7 @@ const Project = ({ project, setPreview }: ProjectProps) => {
       >
         <div className="space-y-4">
           <p className="text-xl">{title}</p>
-          <div className="flex  gap-5 mt-2 text-sand">
+          <div className="hidden md:flex gap-5 mt-2 text-sand">
             {tags?.map((tag) => (
               <span key={tag.id} className="text-sm">
                 {tag.name}

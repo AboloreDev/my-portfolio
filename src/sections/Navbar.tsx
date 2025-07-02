@@ -22,7 +22,7 @@ const Navbar = () => {
   }, [isMobileMenu]);
 
   return (
-    <section className="sticky inset-0 z-80 w-full backdrop-blur-lg bg-primary text-neutral-400 hover:text-white p-4">
+    <section className="sticky inset-0 z-80 w-full backdrop-blur-lg  text-neutral-400 hover:text-white p-4">
       <Container>
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -30,7 +30,7 @@ const Navbar = () => {
             to={"/"}
             className="uppercase prata-regular transition-colors text-neutral-400 hover:text-white flex items-center"
           >
-            <img src={image2} alt="Portfolio logo" className="w-12 h-12" />
+            <img src={image2} alt="Portfolio logo" className="w-8 h-8" />
             <span>Portfolio</span>
           </Link>
 
